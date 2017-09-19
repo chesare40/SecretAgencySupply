@@ -10,7 +10,6 @@ html {
 
 /*---Header---*/
 
-
 #title {
   background-color: black;
   color: white;
@@ -32,4 +31,56 @@ html {
 
 .container span {
   margin-left: 0.5rem;
+  font-size: 1rem;
+}
+
+/*---Main Banner---*/
+
+#main {
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/moto.jpeg");
+  background-size: cover;
+  height: 25rem;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#main .container {
+  display: flex;
+  margin: auto;
+}
+
+#main .banner {
+  width: 20rem;
+  background-color: black;
+  color: white;
+  top: 9rem;
+  padding: 2em 3em;
+  position: relative;
+}
+
+h4,
+h2 {
+  font-weight: bold;
+  margin: 0.5rem;
+}
+
+.banner h2 {
+  font-size: 2rem;
+}
+
+/*---Navigation Menu---*/
+
+#navi {
+  background-color: firebrick;
+  color: white;
+
+}
+
+#navi .container {
+  height: 3rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+
 }

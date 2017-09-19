@@ -1,0 +1,11 @@
+body,
+html {
+  font-family: Helvetica;
+  font-size: 18px;
+}
+
+
+#title {
+  background-color: black;
+  color: white;
+}
